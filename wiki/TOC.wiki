@@ -1,6 +1,6 @@
-#summary Table of Contents
+#summary Index
 
-= Table of Contents =
+= Index =
 
 == General ==
 
