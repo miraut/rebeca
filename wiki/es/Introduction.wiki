@@ -1,10 +1,10 @@
-#summary Introduction to Rebeca.
+#summary Introducción a Rebeca.
 
 = Introducción =
 
 *Rebeca* se basa en Alice, un proyecto inicialmente desarrollado por la Universidad Carnegie Mellon. 
 
-http://rebeca.googlecode.com/svn/wiki/_img/en/introduction.jpg<br/>
+http://rebeca.googlecode.com/svn/wiki/_img/es/Introduction.jpg<br/>
 
 Alice es un innovador entorno de programación 3D que permite, de una forma sencilla, crear animaciones para contar historias, videojuegos interactivos o vídeos para compartir en Internet. Alice es una herramienta de enseñanza gratuita disponible para servir como primera toma de contacto en la programación orientada a objetos. Permite a los estudiantes aprender conceptos fundamentales de programación dentro de un contexto de creación de películas animadas y videojuegos sencillos. En Alicia, objetos 3D (ej., gente, animales, y vehículos) pueblan un mundo virtual y los estudiantes crean un programa para animarlos.
 

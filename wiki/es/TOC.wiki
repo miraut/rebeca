@@ -1,11 +1,11 @@
-#summary Table of Contents
+#summary Índice
 
-= �ndice =
+= Índice =
 
 == General ==
 
-  * [Introduction Introducci�n]
+  * [Introduction Introducción]
 
-== Bibliografia ==
+== Bibliografía ==
 
   * [Resources Recursos]
