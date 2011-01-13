@@ -1,15 +1,15 @@
 #summary Introduction to Rebeca.
 
-= Introducci梟 =
+= Introducci贸n =
 
 *Rebeca* se basa en Alice, un proyecto inicialmente desarrollado por la Universidad Carnegie Mellon. 
 
 http://rebeca.googlecode.com/svn/wiki/_img/en/introduction.jpg<br/>
 
-Alice es un innovador entorno de programaci梟 3D que permite, de una forma sencilla, crear animaciones para contar historias, videojuegos interactivos o v抎eos para compartir en Internet. Alice es una herramienta de ense朼nza gratuita disponible para servir como primera toma de contacto en la programaci梟 orientada a objetos. Permite a los estudiantes aprender conceptos fundamentales de programaci梟 dentro de un contexto de creaci梟 de pel抍ulas animadas y videojuegos sencillos. En Alicia, objetos 3D (ej., gente, animales, y veh抍ulos) pueblan un mundo virtual y los estudiantes crean un programa para animarlos.
+Alice es un innovador entorno de programaci贸n 3D que permite, de una forma sencilla, crear animaciones para contar historias, videojuegos interactivos o v铆deos para compartir en Internet. Alice es una herramienta de ense帽anza gratuita disponible para servir como primera toma de contacto en la programaci贸n orientada a objetos. Permite a los estudiantes aprender conceptos fundamentales de programaci贸n dentro de un contexto de creaci贸n de pel铆culas animadas y videojuegos sencillos. En Alicia, objetos 3D (ej., gente, animales, y veh铆culos) pueblan un mundo virtual y los estudiantes crean un programa para animarlos.
 
-Rebeca se ha centrado en eliminar el *problema con el lenguaje*. Para los estudiantes, el interfaz en ingl巗 puede ser la mayor dificultad para aprender c梞o programar con un entorno 3D.
+Rebeca se ha centrado en eliminar el *problema con el lenguaje*. Para los estudiantes, el interfaz en ingl茅s puede ser la mayor dificultad para aprender c贸mo programar con un entorno 3D.
 
-Rebeca esta *internacionalizado* para aceptar cualquier lenguaje y ha sido traducido al *espa杘l*.
+Rebeca esta *internacionalizado* para aceptar cualquier lenguaje y ha sido traducido al *espa帽ol*.
 
-Visita [http://www.grmv.es/rebeca-es www.grmv.es/rebeca-es] para m噑 informaci梟. 
+Visita [http://www.grmv.es/rebeca-es www.grmv.es/rebeca-es] para m谩s informaci贸n. 
