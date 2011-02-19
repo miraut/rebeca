@@ -1,0 +1,663 @@
+<?xml version="1.0"?>
+
+<stencilStack access="read" world="tutorialWorlds/IceSkaterWorld.a2w" nextStack="tutorial/Tutorial2.stl">
+  <stencil title="Acerca del Tutorial de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.006782945736434108" yPos="0.0945945945945946">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[¡Bienvenido al Tutorial de Alice! Este tutorial te enseñará lo más básico en Alice.]]>
+      </message>
+      <message>
+	<![CDATA[Clic en "sig." para pasar al siguiente paso del tutorial.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Acerca del Tutorial de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.005813953488372093" yPos="0.25">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Hemos cubierto la interfaz de Alice con un filtro azul para que no te abrume mientras aprendes.]]>
+      </message>
+      <message>
+	<![CDATA[Clic en "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Acerca del Tutorial de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.012596899224806201" yPos="0.4297297297297297">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[En cada paso del tutorial aparecerá en una nota como esta.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Acerca del Tutorial de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-55.0" yPos="69.0">
+      <id>
+	<![CDATA[objectTree<Patinadora>]]>
+      </id>
+      <message>
+	<![CDATA[Cuando necesites hacer clic en un botón o arrastrar un elemento, haremos un agujero en el filtro como el que está en el elemento "Patinadora". Puedes hacer cambios a través del agujero.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Acerca del Tutorial de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-57.0" yPos="107.0">
+      <id>
+	<![CDATA[objectTree<Patinadora>]]>
+      </id>
+      <message>
+	<![CDATA[Cuando necesites leer o mirar un elemento de la interfaz, dibujaremos un marco rojo a su alrededor como el de arriba.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Visita Rápida por Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.007751937984496124" yPos="0.15135135135135136">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Alice es un programa para construir mundos virtuales poblados de objetos 3D. Estos objetos pueden moverse, girar, cambiar de color, reaccionar ante el ratón y más.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Un Visita Rápida por Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.009689922480620155" yPos="0.2662162162162162">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Empezaremos con una pequeña visita a la cinco áreas de la interfaz de Alice.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Un Visita Rápida por Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-353.0" yPos="100.0">
+      <id>
+	<![CDATA[sceneEditor<small>:singleView:renderPanel]]>
+      </id>
+      <message>
+	<![CDATA[Esta es la ventana del mundo. Muestra el mundo que estás construyendo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Un Visita Rápida por Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-119.0" yPos="78.0">
+      <id>
+	<![CDATA[objectTree]]>
+      </id>
+      <message>
+	<![CDATA[Este es el árbol de objetos. Contiene una lista de los objetos que están en el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Un Visita Rápida por Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-119.0" yPos="-226.0">
+      <id>
+	<![CDATA[details<>]]>
+      </id>
+      <message>
+	<![CDATA[Este es el área de detalles. Nos proporciona más información sobre el mundo o cualquier objeto en él. Justo ahora, está mostrando información sobre el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Un Visita Rápida por Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-74.0" yPos="-215.0">
+      <id>
+	<![CDATA[editors:element<mi primer metodo>:elementTile<mi primer metodo>]]>
+      </id>
+      <message>
+	<![CDATA[Este es el área del editor. ¡Te permite que los objetos en tu mundo hagan cosas nuevas como moverse y girar!]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Visita Rápida por Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-129.0" yPos="85.0">
+      <id>
+	<![CDATA[behaviors]]>
+      </id>
+      <message>
+	<![CDATA[Este es el área de eventos. Te permite decirle a Alice en que momentos los objetos harán ciertas cosas.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Visita Rápida por Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.2703488372093023" yPos="0.4081081081081081">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[No te preocupes si no has entendido bien todas las áreas de la interfaz. Las veremos con más detalle a medida que avance el tutorial.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Jugando con los Mundos de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.42344961240310075" yPos="0.4135135135135135">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora puedes ver el diseño de la interfaz para construir mundos, te vamos a enseñar como se juega con un mundo en el que estés trabajando.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Jugando con los Mundos de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-46.0" yPos="83.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Para jugar este mundo, haz clic en el botón "Jugar".]]>
+      </message>
+      <message>
+	<![CDATA[Una nueva ventana aparecerá y la Patinadora empezará a girar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Jugando a los Mundos de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.6647286821705426" yPos="0.2891891891891892">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando la Patinadora haya terminado de girar, haz clic en la 'X' en la esquina superior derecha de la nueva ventana. Eso cerrará la nueva ventana y detendrá el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.27325581395348836" yPos="0.42027027027027025">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora vamos ha hacer que la Patinadora haga una rutina más complicada.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-52.0" yPos="-229.0">
+      <id>
+	<![CDATA[editors:element<mi primer metodo>:elementTile<mi primer metodo>]]>
+      </id>
+      <message>
+	<![CDATA[Esto es lo que la Patinadora está haciendo ahora. Primero "Patinadora.preparse para patinar" y después,       "Patinadora.hacer giro simple."]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.2800387596899225" yPos="0.4175675675675676">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Antes de que cambiemos lo que hace la Patinadora necesitaremos saber qué puede hacer.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mouseClic" hasNext="false" xPos="-59.0" yPos="71.0">
+      <id>
+	<![CDATA[objectTree<Patinadora>]]>
+      </id>
+      <message>
+	<![CDATA[Seleccionando objetos, en el árbol de objetos, podemos ver información sobre ellos.]]>
+      </message>
+      <message>
+	<![CDATA[Haz clic en "Patinadora" para seleccionarla.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-117.0" yPos="-216.0">
+      <id>
+	<![CDATA[details<Patinadora>]]>
+      </id>
+      <message>
+	<![CDATA[El área de detalles ahora muestra información de la Patinadora.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mouseClic" hasNext="false" xPos="-105.0" yPos="-208.0">
+      <id>
+	<![CDATA[details<Patinadora>:tab<1>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, haz clic en "métodos" para ver que sabe hacer la Patinadora.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-119.0" yPos="-223.0">
+      <id>
+	<![CDATA[details<Patinadora>]]>
+      </id>
+      <message>
+	<![CDATA[Estos son todas las cosas que la Patinadora sabe hacer.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?mi primer metodo.__Unnamed2__?|nonExistantElements|?|propertyValues|?mi primer metodo.__Unnamed2__.cuantosPasos:2?|elementPositions|?mi primer metodo.__Unnamed2__:2?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-68.0" yPos="-204.0">
+      <id>
+	<![CDATA[details<Patinadora>:userDefinedResponse<Patinadora.patinar>]]>
+      </id>
+      <message>
+	<![CDATA[1Haremos que la Patinadora patine 2 pasos tras finalizar su giro.]]>
+      </message>
+      <message>
+	<![CDATA[1Arrastra "patinar cuantosPasos" desde abajo ...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-42.0" yPos="-213.0">
+      <id>
+	<![CDATA[editors:element<mi primer metodo>:elementTile<mi primer metodo>]]>
+      </id>
+      <message>
+	<![CDATA[2... y sueltalo bajo "Patinadora.hacer giro simple"]]>
+      </message>
+      <message>
+	<![CDATA[2Entonces, elige "2" desde el menú.]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-54.0" yPos="-204.0">
+      <id>
+	<![CDATA[editors:element<mi primer metodo>:elementTile<mi primer metodo.__Unnamed2__>]]>
+      </id>
+      <message>
+	<![CDATA[Esta línea le dice a la Patinadora que patine dos conjuntos de pasos.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-39.0" yPos="81.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, prueba a jugar otra vez. La Patinadora debería girar y después patinar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.6608527131782945" yPos="0.25405405405405407">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando la Patinadora halla terminado, haz clic 'X' y detiene el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?mi primer metodo.__Unnamed1__:2?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-11.0" yPos="-227.0">
+      <id>
+	<![CDATA[editors:element<mi primer metodo>:elementTile<mi primer metodo>]]>
+      </id>
+      <message>
+	<![CDATA[Podemos cambiar el orden de los trucos en la rutina de la Patinadora.]]>
+      </message>
+      <message>
+	<![CDATA[Arrastra y suelta "Patinadora.hacer giro simple" debajo de "Patinadora.patinar"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-41.0" yPos="78.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Intenta jugar tu mundo otra vez. La Patinadora debería de patinar y depués girar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.6608527131782945" yPos="0.25405405405405407">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando la Patinadora haya terminado de girar, haz clic en la 'X' para detener el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?mi primer metodo.__Unnamed3__?|nonExistantElements|?|propertyValues|?mi primer metodo.__Unnamed3__.cuantosPasos:1?|elementPositions|?mi primer metodo.__Unnamed3__:3?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-100.0" yPos="-223.0">
+      <id>
+	<![CDATA[details<Patinadora>:userDefinedResponse<Patinadora.patinar espaldas>]]>
+      </id>
+      <message>
+	<![CDATA[1Después de su giro, nos gustaría que la Patinadora se deslizara de espaldas.]]>
+      </message>
+      <message>
+	<![CDATA[1Arrastra el elemento llamado "patinar espaldas cuantosPasos" ....]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-45.0" yPos="-216.0">
+      <id>
+	<![CDATA[editors:element<mi primer metodo>:elementTile<mi primer metodo>]]>
+      </id>
+      <message>
+	<![CDATA[2... y sueltalo bajo "Patinadora.hacer giro simple".]]>
+      </message>
+      <message>
+	<![CDATA[2Elige "1" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-36.0" yPos="-204.0">
+      <id>
+	<![CDATA[editors:element<mi primer metodo>:elementTile<mi primer metodo.__Unnamed3__>]]>
+      </id>
+      <message>
+	<![CDATA[Esto le dice a la Patinadora que se deslice de espaldas 1 paso.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?mi primer metodo.__Unnamed4__?|nonExistantElements|?|propertyValues|?|elementPositions|?mi primer metodo.__Unnamed4__:4?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-16.0" yPos="-200.0">
+      <id>
+	<![CDATA[details<Patinadora>:userDefinedResponse<Patinadora.saltar>]]>
+      </id>
+      <message>
+	<![CDATA[1Para acabar, haremos que salte al final de su rutina.]]>
+      </message>
+      <message>
+	<![CDATA[1Arrastra "saltar" desde aquí ....]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-81.0" yPos="-205.0">
+      <id>
+	<![CDATA[editors:element<mi primer metodo>:elementTile<mi primer metodo>]]>
+      </id>
+      <message>
+	<![CDATA[2... y sueltalo bajo "Patinadora.patinar espaldas"]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-36.0" yPos="-204.0">
+      <id>
+	<![CDATA[editors:element<mi primer metodo>:elementTile<mi primer metodo.__Unnamed4__>]]>
+      </id>
+      <message>
+	<![CDATA[Este elemento le dice a la Patinadora que salte.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-40.0" yPos="92.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[¡Prueba a jugar tu mundo para ver la nueva rutina de la Patinadora! Cuando haya acabado, cierra la ventana y haz clic en "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.6608527131782945" yPos="0.25405405405405407">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando la Patinadora haya acabado, haz clic en 'X' para parar el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="2">
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-13.0" yPos="-241.0">
+      <id>
+	<![CDATA[editors:element<mi primer metodo>:elementTile<mi primer metodo>]]>
+      </id>
+      <message>
+	<![CDATA[Intenta reorganizar los trucos de la Patinadora para hacer tu propia rutina moviendo los elementos.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-44.0" yPos="94.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[¡Ahora juega el mundo para ver tu rutina!]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Una Rutina Más Complicada" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.6608527131782945" yPos="0.25405405405405407">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando la Patinadora haya acabado, haz clic en 'X' para detener el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Resumen" stepsToGoBack="2">
+    <note type="null" hasNext="false" xPos="0.29651162790697677" yPos="0.4283783783783784">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Hemos acabado la visita rápida por la interfaz de Alice, has aprendido como se juega con los mundos, y a cambiar la rutina de la Patinadora. Si no te sientes seguro con estos temas, por favor reinicia.]]>
+      </message>
+    </note>
+  </stencil>
+</stencilStack>
+
