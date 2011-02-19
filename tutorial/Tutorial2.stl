@@ -1,0 +1,1161 @@
+<?xml version="1.0"?>
+
+<stencilStack access="read" world="tutorialWorlds/naptime.a2w" nextStack="tutorial/Tutorial3.stl">
+  <stencil title="Todo Sobre los Métodos" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.29069767441860467" yPos="0.4472972972972973">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[En este capítulo del tutorial, aprenderas como manejar mundos y objetos de Alice para hacer cosas nuevas.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Todo Sobre los Métodos" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-3.0" yPos="-250.0">
+      <id>
+	<![CDATA[editors:element<defendiendo la siesta>:elementTile<defendiendo la siesta>]]>
+      </id>
+      <message>
+	<![CDATA[Este mundo cuenta el principio de una pequeña historia sobre un conejo que interrumpe su siesta por un teléfono móvil.En este tutorial crearemos nuevos métodos que añadir a la historia.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Todo Sobre los Métodos" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-43.0" yPos="55.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "Jugar" para ver el principio de la historia.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Todo Sobre los Métodos" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.747093023255814" yPos="0.40135135135135136">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Despues de que el conejo diga "Adios teléfono", cierra el mundo haciendo clic en 'X' en la esquina superior derecha de la nueva ventana.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.3168604651162791" yPos="0.42027027027027025">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[El conejo no parece estar muy contento de haber sido despertado. Vamos a hacer que el conejo salte sobre el teléfono y lo aplaste.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-115.0" yPos="-207.0">
+      <id>
+	<![CDATA[details<>]]>
+      </id>
+      <message>
+	<![CDATA[Este área está mostrando los métodos del Mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-116.0" yPos="-209.0">
+      <id>
+	<![CDATA[details<>]]>
+      </id>
+      <message>
+	<![CDATA[El mundo no tiene un método llamado "conejo aplasta telefono". Vamos a hacerlo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-14.0" yPos="-312.0">
+      <id>
+	<![CDATA[details<>:newAnimationButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "crear método nuevo"]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?conejo aplasta telefono?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.1069767441860467" yPos="0.4472972972972973">
+      <message>
+	<![CDATA[-Teclea "conejo aplasta telefono" exactamente]]>
+      </message>
+	<message>
+	<![CDATA[-Ahora, haz clic en "OK".]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-16.0" yPos="-213.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<conejo aplasta telefono>]]>
+      </id>
+      <message>
+	<![CDATA[Aquí está el método que has añadido.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-30.0" yPos="-220.0">
+      <id>
+	<![CDATA[editors]]>
+      </id>
+      <message>
+	<![CDATA[Alice ha abierto un editor para el método "Mundo.conejo aplasta telefono" que has creado. Ahora ya podemos añadir elementos a este nuevo método.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.2877906976744186" yPos="0.45">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Queremos que el conejo aplaste el teléfono. Vamos a ver qué sabe hacer el conejo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-47.0" yPos="93.0">
+      <id>
+	<![CDATA[objectTree<conejo>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "conejo" para ver qué sabe hacer.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-117.0" yPos="-206.0">
+      <id>
+	<![CDATA[details<conejo>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora el área de detalles muestra los métodos del conejo. Ninguno de ellos parece poder hacer que el conejo salte arriba y abajo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.006782945736434108" yPos="0.1783783783783784">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[A menudo, los objetos de Alice no sabrán cómo hacer las cosas que quieres que hagan. Pero puedes usar animaciones simples para enseñarles cómo hacerlas.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.005813953488372093" yPos="0.28783783783783784">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora vamos a aprender cómo hacer que el conejo salte arriba, abajo y aplaste el teléfono móvil.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?conejo aplasta telefono.__Unnamed0__?|nonExistantElements|?|propertyValues|?conejo aplasta telefono.__Unnamed0__.subject:conejo?conejo aplasta telefono.__Unnamed0__.amount:1?conejo aplasta telefono.__Unnamed0__.direction:arriba?|elementPositions|?conejo aplasta telefono.__Unnamed0__:0?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-37.0" yPos="-254.0">
+      <id>
+	<![CDATA[details<conejo>:responsePrototype<edu.cmu.cs.stage3.alice.core.response.MoveAnimation>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "conejo mover" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-29.0" yPos="-249.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>:elementTile<conejo aplasta telefono>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo donde dice "No Hacer Nada"]]>
+      </message>
+      <message>
+	<![CDATA[2Elige "arriba" y luego "1 metro" desde el menú.]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-24.0" yPos="-200.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>:elementTile<conejo aplasta telefono.__Unnamed0__>]]>
+      </id>
+      <message>
+	<![CDATA[Esta línea le dice al conejo que se mueva un metro hacia arriba.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?conejo aplasta telefono.__Unnamed1__?|nonExistantElements|?|propertyValues|?conejo aplasta telefono.__Unnamed1__.amount:1?conejo aplasta telefono.__Unnamed1__.subject:conejo?conejo aplasta telefono.__Unnamed1__.direction:abajo?|elementPositions|?conejo aplasta telefono.__Unnamed1__:1?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-46.0" yPos="-235.0">
+      <id>
+	<![CDATA[details<conejo>:responsePrototype<edu.cmu.cs.stage3.alice.core.response.MoveAnimation>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "conejo mover" desde aquí..]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-88.0" yPos="-240.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>:elementTile<conejo aplasta telefono>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo debajo de "conejo mover arriba 1 metro"]]>
+      </message>
+      <message>
+	<![CDATA[2Elige "abajo" y "1 metro" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-18.0" yPos="-212.0">
+      <id>
+	<![CDATA[editors]]>
+      </id>
+      <message>
+	<![CDATA["Mundo.conejo aplasta telefono" ahora le dice al conejo que se mueva 1 metro arriba y luego 1 metro abajo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.29069767441860467" yPos="0.44324324324324327">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, vamos a añadir el método "Mundo.conejo aplasta telefono" a nuestra historia.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-78.0" yPos="77.0">
+      <id>
+	<![CDATA[editors:element<defendiendo la siesta>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en la pestaña llamada "Mundo.defendiendo la siesta"]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-1.0" yPos="-232.0">
+      <id>
+	<![CDATA[editors]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, podemos ver de nuevo la historia principal.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-27.0" yPos="88.0">
+      <id>
+	<![CDATA[objectTree<>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "Mundo" para ver los métodos del mundo.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-115.0" yPos="-208.0">
+      <id>
+	<![CDATA[details<>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, el área de detalles muestra los métodos del Mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?defendiendo la siesta.__Unnamed6__?|nonExistantElements|?|propertyValues|?|elementPositions|?defendiendo la siesta.__Unnamed6__:6?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-64.0" yPos="-239.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<conejo aplasta telefono>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "conejo aplasta telefono" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-47.0" yPos="-229.0">
+      <id>
+	<![CDATA[editors:element<defendiendo la siesta>:elementTile<defendiendo la siesta>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo al final bajo el elemento "Mundo.conejo salta hacia telefono"]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-44.0" yPos="64.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Intenta jugar tu mundo para ver al conejo aplastando el teléfono.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.7432170542635659" yPos="0.33918918918918917">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando el conejo se haya movido arriba y abajo, haz clic en 'X' para detener el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.3313953488372093" yPos="0.43783783783783786">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[El conejo se ha movido arriba y abajo muy lentamente. Vamos ha hacer que salte de una forma más convincente.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="6.0" yPos="-210.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en la pestaña llamada "Mundo.conejo aplasta telefono" para ver el método que has hecho.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-14.0" yPos="-253.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>:elementTile<conejo aplasta telefono>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, estamos mirando   "Mundo.conejo aplasta telefono"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-43.0" yPos="-226.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>:elementTile<conejo aplasta telefono.__Unnamed0__>]]>
+      </id>
+      <message>
+	<![CDATA[Normalmente todos los método tardan 1 segundo, pero nosotros vamos a cambiarlo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?conejo aplasta telefono.__Unnamed0__.duration:0,25?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="50.0" yPos="-227.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>:elementTile<conejo aplasta telefono.__Unnamed0__>:more]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "más"]]>
+      </message>
+      <message>
+	<![CDATA[Elige "duración" y elige "0.25" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[No hagas clic en el siguiente "más".]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-64.0" yPos="-215.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>:elementTile<conejo aplasta telefono.__Unnamed0__>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora le estamos diciendo al conejo que se mueva 1 metro, pero solo tarde 0.25 segundos en lugar de 1 segundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?conejo aplasta telefono.__Unnamed1__.duration:0,25?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="50.0" yPos="-231.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>:elementTile<conejo aplasta telefono.__Unnamed1__>:more]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "más"]]>
+      </message>
+      <message>
+	<![CDATA[Elige "duración" y elige "0.25" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[No hagas clic en el siguiente "más".]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-9.0" yPos="-193.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>:elementTile<conejo aplasta telefono>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, el conejo debería moverse arriba en 0.25 segundos y abajo en 0.25 segundos.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-45.0" yPos="61.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Prueba a jugar tu mundo para ver como el conejo salta más rápido.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.75" yPos="0.40540540540540543">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Después de que el conejo haya saltado, cierra el mundo haciendo clic en 'X']]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.311046511627907" yPos="0.43243243243243246">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, vamos a hacer que el móvil se aplaste cuando el conejo salte encima.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-21.0" yPos="45.0">
+      <id>
+	<![CDATA[objectTree<Movil>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "Movil" para ver los detalles del Móvil.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-119.0" yPos="-204.0">
+      <id>
+	<![CDATA[details<Movil>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora el área de detalles muestra información de los métodos del Móvil.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?conejo aplasta telefono.__Unnamed2__?|nonExistantElements|?|propertyValues|?|elementPositions|?conejo aplasta telefono.__Unnamed2__:2?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-30.0" yPos="81.0">
+      <id>
+	<![CDATA[details<Movil>:userDefinedResponse<Movil.aplastar>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "aplastar" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="0.0" yPos="-207.0">
+      <id>
+	<![CDATA[editors:element<conejo aplasta telefono>:elementTile<conejo aplasta telefono>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo debajo de "conejo mover abajo 1 metro"]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-44.0" yPos="81.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Prueba a jugar tu mundo para ver como el conejo aplasta el teléfono.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.7461240310077519" yPos="0.35">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando el conejo haya aplastado el móvil, cierra el mundo haciendo clic en 'X']]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.28972868217054265" yPos="0.4445945945945946">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Vamos a añadir un par de métodos más a la historia principal para dejarla acabada.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-27.0" yPos="109.0">
+      <id>
+	<![CDATA[editors:element<defendiendo la siesta>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en la pestaña llamada "Mundo.defendiendo la siesta"]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="0.0" yPos="-210.0">
+      <id>
+	<![CDATA[editors]]>
+      </id>
+      <message>
+	<![CDATA[Ahora podemos ver la historia principal de nuevo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.2936046511627907" yPos="0.45">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Necesitamos un par más de métodos que el Mundo ya tiene, por lo cual, necesitamos encontrar los métodos del Mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-25.0" yPos="70.0">
+      <id>
+	<![CDATA[objectTree<>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "Mundo" para ver los detalles del Mundo.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-117.0" yPos="-233.0">
+      <id>
+	<![CDATA[details<>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, podemos ver los detalles del mundo en el área de detalles.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?defendiendo la siesta.__Unnamed7__?|nonExistantElements|?|propertyValues|?|elementPositions|?defendiendo la siesta.__Unnamed7__:7?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-79.0" yPos="-214.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<conejo encoje hombros y salta lejos>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra el método "conejo encoje hombros y salta lejos" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-47.0" yPos="-224.0">
+      <id>
+	<![CDATA[editors:element<defendiendo la siesta>:elementTile<defendiendo la siesta>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo debajo de "Mundo.conejo aplasta telefono"]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?defendiendo la siesta.__Unnamed8__?|nonExistantElements|?|propertyValues|?|elementPositions|?defendiendo la siesta.__Unnamed8__:8?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-56.0" yPos="-211.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<mostrar pantalla final>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "mostrar pantalla final" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-11.0" yPos="-258.0">
+      <id>
+	<![CDATA[editors:element<defendiendo la siesta>:elementTile<defendiendo la siesta>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo al final, debajo del método "Mundo.conejo encoje hombros y salta lejos"]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-44.0" yPos="59.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Prueba a jugar tu mundo para ver toda la historia.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Otro Método Nuevo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.7296511627906976" yPos="0.3635135135135135">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando veas la pantalla final, haz clic en 'X' para cerrar el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.2936046511627907" yPos="0.41216216216216217">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Nuestra historia parece muy buena, pero cuando el conejo dice 'Shhhh!' parece extraño que no se mueva. Vamos a hacerlo mejor.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-76.0" yPos="-199.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<conejo calla el telefono>]]>
+      </id>
+      <message>
+	<![CDATA[Necesitamos abrir el método "conejo calla el telefono"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mouseClic" hasNext="false" xPos="-76.0" yPos="-199.0">
+      <id>
+	<![CDATA[details<>:editObjectButton<conejo calla el telefono>]]>
+      </id>
+      <message>
+	<![CDATA[Para abrir "conejo calla el telefono", haz clic en el botón editar junto a él.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-55.0" yPos="-217.0">
+      <id>
+	<![CDATA[editors]]>
+      </id>
+      <message>
+	<![CDATA[Alice ha abierto el método "Mundo.conejo calla el telefono" en un editor para tí.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.3081395348837209" yPos="0.48783783783783785">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Vamos a hacer que el conejo levante su brazo y haga la señal de callar antes de que diga 'Shhh!']]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-36.0" yPos="115.0">
+      <id>
+	<![CDATA[objectTree<conejo>]]>
+      </id>
+      <message>
+	<![CDATA[El conejo tiene subpartes. Estas subpartes son las diferentes partes de su cuerpo.]]>
+      </message>
+      <message>
+	<![CDATA[Haz clic en el "+" a la izquierda del elemento conejo.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-50.0" yPos="131.0">
+      <id>
+	<![CDATA[objectTree<conejo.body>]]>
+      </id>
+      <message>
+	<![CDATA["cuerpo" (body) es la primera subparte del conejo.]]>
+      </message>
+      <message>
+	<![CDATA[Vamos a abrirlo para ver qué más tiene dentro.]]>
+      </message>
+      <message>
+	<![CDATA[Haz clic en el "+" siguiente al cuerpo.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-36.0" yPos="127.0">
+      <id>
+	<![CDATA[objectTree<conejo.body.chest>]]>
+      </id>
+      <message>
+	<![CDATA[El cuerpo del conejo tiene una parte llamada pecho (chest). Los brazos a menudo están ligados al pecho, pues los tenemos muy cerca.]]>
+      </message>
+      <message>
+	<![CDATA[Haz clic en el "+" siguiente para desplegar el pecho.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-48.0" yPos="145.0">
+      <id>
+	<![CDATA[objectTree<conejo.body.chest.armR>]]>
+      </id>
+      <message>
+	<![CDATA[Y aquí tenemos el brazo derecho (armR) del conejo.]]>
+      </message>
+      <message>
+	<![CDATA[Haz clic en él para ver los métodos que puede hacer.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-120.0" yPos="-221.0">
+      <id>
+	<![CDATA[details<conejo.body.chest.armR>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora podemos ver todos los métodos que el brazo derecho (armR) puede hacer.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?conejo calla el telefono.__Unnamed2__?|nonExistantElements|?|propertyValues|?conejo calla el telefono.__Unnamed2__.subject:conejo.body.chest.armR?conejo calla el telefono.__Unnamed2__.amount:0,25?conejo calla el telefono.__Unnamed2__.direction:atrás?|elementPositions|?conejo calla el telefono.__Unnamed2__:1?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-40.0" yPos="43.0">
+      <id>
+	<![CDATA[details<conejo.body.chest.armR>:responsePrototype<edu.cmu.cs.stage3.alice.core.response.TurnAnimation>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra brazoD (armR) desde aquí..]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="19.0" yPos="-242.0">
+      <id>
+	<![CDATA[editors:element<conejo calla el telefono>:elementTile<conejo calla el telefono>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo bajo el método "Movil.sonar"]]>
+      </message>
+      <message>
+	<![CDATA[2Elige "atrás" y "1/4" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?conejo calla el telefono.__Unnamed3__?|nonExistantElements|?|propertyValues|?conejo calla el telefono.__Unnamed3__.direction:adelante?conejo calla el telefono.__Unnamed3__.subject:conejo.body.chest.armR?conejo calla el telefono.__Unnamed3__.amount:0,25?|elementPositions|?conejo calla el telefono.__Unnamed3__:3?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="-37.0" yPos="73.0">
+      <id>
+	<![CDATA[details<conejo.body.chest.armR>:responsePrototype<edu.cmu.cs.stage3.alice.core.response.TurnAnimation>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "brazoD girar" (armR girar) desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="15.0" yPos="-247.0">
+      <id>
+	<![CDATA[editors:element<conejo calla el telefono>:elementTile<conejo calla el telefono>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo debajo de "conejo decir Shhhh!"]]>
+      </message>
+      <message>
+	<![CDATA[2Elije "adelante" y "1/4" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-43.0" yPos="53.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[¡Juega tu mundo por última vez para ver la historia completa!]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.7102713178294574" yPos="0.3932432432432432">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando la historia haya acabado, haz clic en 'X' para cerrar el mundo]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Abriendo un Método" stepsToGoBack="2">
+    <note type="null" hasNext="false" xPos="0.2916666666666667" yPos="0.43513513513513513">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[En este capítulo del tutorial hemos visto]]>
+      </message>
+      <message>
+	<![CDATA[- como hacer métodos nuevos]]>
+      </message>
+      <message>
+	<![CDATA[- como abrir métodos]]>
+      </message>
+      <message>
+	<![CDATA[Si no estás seguro de como hacer algo, por favor reinicia.]]>
+      </message>
+    </note>
+  </stencil>
+</stencilStack>
+

@@ -1,0 +1,444 @@
+<?xml version="1.0"?>
+
+<stencilStack access="read" world="tutorialWorlds/space.a2w">
+  <stencil title="Creando Escenas, Mundos y Añadiendo Objetos">
+    <note type="null" hasNext="true" xPos="0.3003875968992248" yPos="0.41711229946524064">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[En este capítulo del tutorial te enseñaremos cómo crear tus propias escenas. Será lo último que necesitarás saber para poder construir tus propios mundos.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Escenas">
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-163.0" yPos="80.0">
+      <id>
+	<![CDATA[sceneEditor<small>:singleView:makeSceneEditorBigButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic aquí para expandir la ventana 3D.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Escenas">
+    <note type="null" hasNext="true" xPos="0.03875968992248062" yPos="0.6176470588235294">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora que tenemos una buena vista de la escena 3D, te vamos a enseñar cómo mover objetos a su alrededor.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Escenas">
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="true" xPos="-349.0" yPos="58.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:renderPanel]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en el módulo de aterrizaje lunar en la ventana 3D y arrastralo al centro de la pantalla.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Escenas">
+    <note type="null" hasNext="true" xPos="0.18023255813953487" yPos="0.6390374331550802">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[También puedes moverte alrededor de tu escena 3D.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Escenas">
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="true" xPos="-66.0" yPos="25.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:guiNavigatorDrivePanel]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic y arrastra este control para situarte cerca del módulo lunar.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Escenas">
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="true" xPos="-113.0" yPos="30.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:guiNavigatorSlidePanel]]>
+      </id>
+      <message>
+	<![CDATA[Este control se mueve arriba, abajo, a izquierda y a derecha.]]>
+      </message>
+      <message>
+	<![CDATA[Haz clic y arrastra este control para tomar una buena imagen de la parte superior de la base lunar.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Escenas">
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-145.0" yPos="45.0">
+      <id>
+	<![CDATA[undoButton]]>
+      </id>
+      <message>
+	<![CDATA[Si no te gusta cualquier cambio que hayas hecho, siempre puedes volver atrás presionando Deshacer.]]>
+      </message>
+      <message>
+	<![CDATA[Haz clic en "Deshacer" para deshacer tu último movimiento de cámara.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Escenas">
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-147.0" yPos="152.0">
+      <id>
+	<![CDATA[undoButton]]>
+      </id>
+      <message>
+	<![CDATA[Alice te permite deshacer tantos cambios como quieras.]]>
+      </message>
+      <message>
+	<![CDATA[Haz clic en "Deshacer" otra vez para volver otro cambio atrás.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Escenas">
+    <note type="null" hasNext="true" xPos="0.0436046511627907" yPos="0.6350267379679144">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, sabes cómo posicionar objetos en la escena y mover la cámara. Lo siguiente que veremos es cómo crear un mundo y añadir objetos en él.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Mundos Nuevos">
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-6.0" yPos="108.0">
+      <id>
+	<![CDATA[fileMenu]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "Archivo"]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Mundos Nuevos" stepsToGoBack="0">
+    <note type="null" hasNext="true" xPos="0.02810077519379845" yPos="0.6764705882352942">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Elige "Nuevo Mundo" desde el menú.]]>
+      </message>
+	<message>
+	<![CDATA[En la ventana de nuevo mundo, haz clic en el mundo "hierba". Luego, haz clic en el botón "Abrir"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Mundos Nuevos" stepsToGoBack="0">
+    <note type="frame" hasNext="true" xPos="-73.0" yPos="194.0">
+      <id>
+	<![CDATA[sceneEditor<small>:singleView:renderPanel]]>
+      </id>
+      <message>
+	<![CDATA[Fijate en que Alice ha cargado para tí un mundo vacío con cielo azul y algo de hierba.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Mundos Nuevos">
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-54.0" yPos="125.0">
+      <id>
+	<![CDATA[sceneEditor<small>:singleView:makeSceneEditorBigButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en este botón para expandir la ventana 3D.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Creando Mundos Nuevos">
+    <note type="null" hasNext="true" xPos="0.03875968992248062" yPos="0.6176470588235294">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Lo siguiente que veréis será cómo añadir nuevos objetos al mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="frame" hasNext="true" xPos="-623.0" yPos="-271.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:galleryViewer<Inicio\Galería Local>]]>
+      </id>
+      <message>
+	<![CDATA[Debajo de la ventana 3D está la galería de objetos que puedes añadir a los mundos de Alice.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="true" advanceEvent="mouseClick" hasNext="false" xPos="-445.0" yPos="-227.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:galleryViewer<Inicio\Galería Local>:galleryObject<Galería Local\Carreteras y Señales>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en Carreteras y Señales para ver los objetos de ese tipo.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="frame" hasNext="true" xPos="-627.0" yPos="-245.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:galleryViewer<Inicio\Galería Local\Carreteras y Señales>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, puedes ver todos los objetos de carreteras y señales.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="AÃ±adiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="false" xPos="-309.0" yPos="-219.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:galleryViewer<Inicio\Galería Local\Carreteras y Señales>:galleryObject<Galería Local\Carreteras y Señales\BikeSign.a2c>]]>
+      </id>
+      <message>
+	<![CDATA[1Para añadir la señal para bicicletas al mundo, arrastra la tarjeta "BikeSign.a2c" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="true" xPos="42.0" yPos="87.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:renderPanel]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltala en la escena 3D.]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="true" advanceEvent="mouseClick" hasNext="false" xPos="-332.0" yPos="-207.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:galleryViewer<Inicio\Galería Local\Carreteras y Señales>:button<Galería Local>]]>
+      </id>
+      <message>
+	<![CDATA[Para volver a la librería principal, haz clic en "Galería Local"]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="frame" hasNext="true" xPos="-624.0" yPos="-247.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:galleryViewer<Inicio\Galería Local>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, hemos vuelto a la galería principal.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="null" hasNext="true" xPos="0.027131782945736434" yPos="0.5962566844919787">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Vamos a añadir un objeto más al mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="true" advanceEvent="mouseClick" hasNext="false" xPos="-581.0" yPos="-197.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:galleryViewer<Inicio\Galería Local>:galleryObject<Galería Local\Ciudad>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en Ciudad para ver que edificios puedes añadir a los mundos de Alice.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="false" xPos="-240.0" yPos="-220.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:galleryViewer<Inicio\Galería Local\Ciudad>:galleryObject<Galería Local\Ciudad\BuildingCluster2.a2c>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra la tarjeta "BuildingCluster2.a2c" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="true" xPos="130.0" yPos="81.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:renderPanel]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltala en la escena 3D.]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="true" xPos="-279.0" yPos="59.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:renderPanel]]>
+      </id>
+      <message>
+	<![CDATA[Usa el ratón para arrastrar el edificio a la posición que quieras.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="null" hasNext="true" xPos="0.055232558139534885" yPos="0.6350267379679144">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Algunas veces, puedes querer varias copias del mismo objeto. En el próximo paso, veremos una forma fácil de copiar objetos.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="true" advanceEvent="mouseClick" hasNext="false" xPos="-197.0" yPos="74.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:copyModeButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en este botón para seleccionar la herramienta de copia.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="true" xPos="-54.0" yPos="111.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:renderPanel]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, haz clic y arrastra la señal para hacer copias de ella.]]>
+      </message>
+      <message>
+	<![CDATA[Cuando hayas hecho tantas copias como quieras, haz clic en "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="AÃ±adiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="true" advanceEvent="mouseClick" hasNext="false" xPos="-86.0" yPos="81.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:turnLeftRightModeButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en este botón para seleccionar la herramienta rotación.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="true" xPos="1.0" yPos="96.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:renderPanel]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, rota las señales de bicicleta a la posición que quieras haciendo clic en ellas y arrastrando.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="true" advanceEvent="mouseClick" hasNext="false" xPos="-33.0" yPos="69.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:defaultMoveModeButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en el icono flecha para volver al cursor para movimiento de objetos habitual.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClick" hasNext="true" xPos="-148.0" yPos="76.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:renderPanel]]>
+      </id>
+      <message>
+	<![CDATA[Prueba moviendo una o dos señales a otra posición.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-316.0" yPos="-31.0">
+      <id>
+	<![CDATA[sceneEditor<large>:singleView:makeSceneEditorSmallButton]]>
+      </id>
+      <message>
+	<![CDATA[Ahora que has terminado de montar una escena, presiona este botón para volver y poder hacer otras cosas interesantes en tu mundo.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Objetos 3D al mundo">
+    <note type="null" hasNext="false" xPos="0.5455426356589147" yPos="0.16711229946524064">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Este capítulo del tutorial te ha enseñado a crear nuevos mundos y a añadir objetos en ellos. Si no estás seguro de cómo hacer esto, por favor reinicia.]]>
+      </message>
+    </note>
+    <note type="null" hasNext="false" xPos="0.5426356589147286" yPos="0.4572192513368984">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Si estás preparado para construir tus propios mundos en Alice, haz clic en el botón 'Salir Tutorial'.]]>
+      </message>
+    </note>
+  </stencil>
+</stencilStack>
+

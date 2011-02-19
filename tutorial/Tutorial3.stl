@@ -1,0 +1,1193 @@
+<?xml version="1.0"?>
+
+<stencilStack access="read" world="tutorialWorlds/penguinChorus1b.a2w" nextStack="tutorial/Tutorial4.stl">
+  <stencil title="Introducción a los Eventos de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.28391472868217055" yPos="0.43513513513513513">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[En este capítulo del tutorial, vas a aprender cómo hacer que los mundos de Alice respondan ante clics del ratón y teclas presionadas.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Introducción a los Eventos de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-42.0" yPos="52.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Presiona el botón "Jugar" para ver qué hace este mundo.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Introducción a los Eventos de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.7306201550387597" yPos="0.2581081081081081">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Los pingüinos tienen que cantar una pequeña canción.]]>
+      </message>
+      <message>
+	<![CDATA[Cuando hayan terminado, haz clic en 'X' para cerrar la ventana.]]>
+      </message>
+      <message>
+	<![CDATA[Ahora, haz clic en "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Introducción a los Eventos de Alice" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.28488372093023256" yPos="0.4243243243243243">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[¿Qué crees que ha hecho a los pingüinos cantar su canción?]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Introducción a los Eventos de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-234.0" yPos="97.0">
+      <id>
+	<![CDATA[behaviors]]>
+      </id>
+      <message>
+	<![CDATA[Este es el área de eventos. Los eventos le dicen a Alice cuándo hacer ciertas cosas, como que los pingüinos canten.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Introducción a los Eventos de Alice" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-180.0" yPos="72.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event1>]]>
+      </id>
+      <message>
+	<![CDATA[Este es un evento. Dice que, al comienzo del mundo, Alice debe hacer el método "Mundo.pinguinos cantan algo"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Cambiando el Evento de Inicio del Mundo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.29651162790697677" yPos="0.44054054054054054">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Vamos a hacer que Alice realice un método diferente al comienzo del mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Cambiando el Evento de Inicio del Mundo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.46124031007751937" yPos="0.43513513513513513">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Primero, necesitamos averiguar qué más puede hacer el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Cambiando el Evento de Inicio del Mundo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-36.0" yPos="87.0">
+      <id>
+	<![CDATA[objectTree<>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "Mundo" para ver la información del mundo.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Cambiando el Evento de Inicio del Mundo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-117.0" yPos="-217.0">
+      <id>
+	<![CDATA[details<>]]>
+      </id>
+      <message>
+	<![CDATA[El área de detalles ahora muestra los métodos del Mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Cambiando el Evento de Inicio del Mundo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-36.0" yPos="-216.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<pinguinos cantan escala>]]>
+      </id>
+      <message>
+	<![CDATA[En el siguiente paso, vamos a decirle a Alice que haga el método "pinguinos cantan escala" al comienzo del mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Cambiando el Evento de Inicio del Mundo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?event1.__Unnamed5__.userDefinedResponse:Mundo.pinguinos cantan escala?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mousePress" hasNext="false" xPos="100.0" yPos="-227.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<pinguinos cantan escala>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "pinguinos cantan escala" desde aquí y...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-184.0" yPos="111.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event1>:property<triggerResponse>]]>
+      </id>
+      <message>
+	<![CDATA[2...sueltalo encima de "Mundo.pinguinos cantan algo" para reemplazarlo.]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Cambiando el Evento de Inicio del Mundo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-148.0" yPos="70.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event1>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, cuando el mundo arranca, Alice hará el método "Mundo.pinguinos cantan escala"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Cambiando el Evento de Inicio del Mundo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-43.0" yPos="73.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "Jugar" para ver a los pingüinos cantar su escala.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Cambiando el Evento de Inicio del Mundo" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.7315891472868217" yPos="0.28243243243243243">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando los pingüinos hayan terminado, haz clic en 'X' para cerrar el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Presionar una Tecla" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.28391472868217055" yPos="0.42702702702702705">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, vamos a añadir un evento nuevo para que los pingüinos canten su canción al presionar una tecla del teclado.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Presionar una Tecla" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-13.0" yPos="76.0">
+      <id>
+	<![CDATA[behaviors:createNewEventButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "crear evento nuevo"]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Presionar una Tecla" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?event2.code?event2.keyChar?event2?|nonExistantElements|?|propertyValues|?event2.keyChar.valueClass:java.lang.Character?event2.code.valueClass:java.lang.Integer?|elementPositions|?event2.code:1?event2:0?event2.keyChar:0?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.5319767441860465" yPos="0.5108108108108108">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Elige "Cuando una tecla es pulsada" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Presionar una Tecla" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-216.0" yPos="63.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event2>]]>
+      </id>
+      <message>
+	<![CDATA[Aquí está el evento que acabas de crear. Dice que cuando presiones alguna tecla en el mundo lanzado, Alice hará: "¡Nada!"]]>
+      </message>
+      <message>
+	<![CDATA[Vamos a cambiarlo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Presionar una Tecla" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?event2.__Unnamed2__.userDefinedResponse:Mundo.pinguinos cantan algo?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="80.0" yPos="40.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<pinguinos cantan algo>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "pinguinos cantan algo" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-156.0" yPos="82.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event2>:property<triggerResponse>]]>
+      </id>
+      <message>
+	<![CDATA[2y sueltalo encima de "Nada"]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Presionar una Tecla" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-188.0" yPos="50.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event1>]]>
+      </id>
+      <message>
+	<![CDATA[Cuando el mundo se inicie, Alice seguirá haciendo el método "Mundo.pinguinos cantan escala"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Presionar una Tecla" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-252.0" yPos="85.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event2>]]>
+      </id>
+      <message>
+	<![CDATA[Y, cuando presiones una tecla, Alice hará el método "Mundo.pinguinos cantan algo"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Presionar una Tecla" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-44.0" yPos="83.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, prueba a jugar tu mundo de nuevo.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Presionar una Tecla" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.7112403100775194" yPos="0.2391891891891892">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando los pingüinos hayan terminado su escala, prueba a presionar una tecla del teclado. ¡Cantan su canción!]]>
+      </message>
+      <message>
+	<![CDATA[Al acabar, haz clic en 'X' para cerrar el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Clic con el Ratón" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.2858527131782946" yPos="0.4243243243243243">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, vamos a añadir otro evento para que cada uno de los pingüinos cante su nota cuando hagas clic sobre él.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="19.0" yPos="88.0">
+      <id>
+	<![CDATA[behaviors:createNewEventButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "crear evento nuevo"]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?event3.what?event3.y?event3.x?event3?|nonExistantElements|?|propertyValues|?event3.y.valueClass:Number?event3.x.valueClass:Number?|elementPositions|?event3.y:1?event3.x:0?event3:0?event3.what:2?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.5562015503875969" yPos="0.5">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Elige "Cuando el ratón haga clic en algo" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo un Evento de Clic con el Ratón" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-223.0" yPos="95.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event3>]]>
+      </id>
+      <message>
+	<![CDATA[Este es el evento nuevo que has creado. Dice que cuando el ratón haga clic en algún objeto, Alice hará "¡Nada!"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Detalles sobre el Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.2926356589147287" yPos="0.43108108108108106">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Vamos a hacer que el evento que acabamos de añadir le diga al pingüino azul que cante su nota.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Detalles sobre el Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?event3.__Unnamed3__.quePinguino:PinguinoAzul?event3.__Unnamed3__.userDefinedResponse:Mundo.pinguino canta nota?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="10.0" yPos="30.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<pinguino canta nota>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "pinguino canta nota quePinguino" desde aquí y...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-264.0" yPos="65.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event3>:property<triggerResponse>]]>
+      </id>
+      <message>
+	<![CDATA[2...sueltala encima de "Nada"]]>
+      </message>
+      <message>
+	<![CDATA[2-Elige "PinguinoAzul" y luego "todo PinguinoAzul" desde el menú desplegable]]>
+      </message>
+      <message>
+	<![CDATA[2-Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Detalles sobre el Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-268.0" yPos="86.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event3>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, cuando el ratón haga clic en algún objeto del mundo, Alice le dirá al pingüino azul que cante su nota.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Detalles sobre el Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-45.0" yPos="115.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Prueba a jugar tu mundo otra vez.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Detalles sobre el Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.750968992248062" yPos="0.35">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando el mundo se inicie, los pingüinos cantarán su canción. Cuando hayan terminado prueba a hacer clic en algún objeto. El pingüino azul cantará su nota.]]>
+      </message>
+      <message>
+	<![CDATA[Haz clic en 'X' para cerrar.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Usando Clic Sobre el Objeto" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.3003875968992248" yPos="0.42702702702702705">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Es un poco extraño que puedas hacer clic en cualquier parte del mundo y el pingüino azul cante su nota. Vamos a hacer que solo el pingüino sobre el que hagas clic cante su nota.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Usando Clic Sobre el Objeto" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?event3.__Unnamed3__.quePinguino.value:objeto bajo el cursor del ratón?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-486.0" yPos="118.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event3.__Unnamed3__.quePinguino>:property<value>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "quePinguino = PinguinoAzul"]]>
+      </message>
+      <message>
+	<![CDATA[Elige "expresiones" y luego "objeto bajo el cursor del ratón" del menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Usando Clic Sobre el Objeto" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-321.0" yPos="78.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event3>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, cuando hagas clic en algún objeto, este cantará su nota. Solo los pingüinos saben cómo cantar. Los otros objetos permanecerán en silencio si les haces cantar.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Usando Clic Sobre el Objeto" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-44.0" yPos="85.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Prueba lanzando tu mundo de nuevo.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Usando Clic Sobre el Objeto" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.7441860465116279" yPos="0.2756756756756757">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando los pingüinos hayan terminado su canción, prueba ha hacer clic en diferentes pingüinos, de uno en uno. Deberían cantar sus notas.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.27906976744186046" yPos="0.41621621621621624">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora vamos a conectar los botones play (reproducir), stop (detener) y record (grabar) sobre los pingüinos para que podamos grabar lo que cantan.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.27325581395348836" yPos="0.43108108108108106">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Para hacer que los botones funcionen, necesitaremos añadir unos pocos comportamientos más de clic con ratón.]]>
+      </message>
+      <message>
+	<![CDATA[Empezaremos haciendo funcionar el botón record.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-63.0" yPos="77.0">
+      <id>
+	<![CDATA[behaviors:createNewEventButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "crear evento nuevo"]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?event4.what?event4.y?event4.x?event4?|nonExistantElements|?|propertyValues|?event4.y.valueClass:Number?event4.x.valueClass:Number?|elementPositions|?event4:0?event4.what:2?event4.y:1?event4.x:0?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.5406976744186046" yPos="0.5405405405405406">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Elige "Cuando el ratón haga clic en algo" del menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-197.0" yPos="89.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event4>]]>
+      </id>
+      <message>
+	<![CDATA[Aquí está el evento que acabamos de crear. Ahora, necesitamos completar los detalles para que al cliquear en grabar, ¡Alice empieze a grabar!]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.28294573643410853" yPos="0.4297297297297297">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Vamos a empezar haciendo que nuestro nuevo evento de clic con el ratón diga "Cuando el ratón haga clic en BotonGrabar, hacer Nada"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?event4.onWhat:BotonGrabar?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mousePress" hasNext="true" xPos="-387.0" yPos="126.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event4>:property<onWhat>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "alguna cosa"]]>
+      </message>
+      <message>
+	<![CDATA[Elige "BotonGrabar" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-364.0" yPos="96.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event4>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora nuestro evento dice "Cuando el ratón haga clic en BotonGrabar, hacer Nada"]]>
+      </message>
+      <message>
+	<![CDATA[¡Vamos a hacer que grabe en su lugar!]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?event4.__Unnamed3__.userDefinedResponse:Mundo.grabar?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mousePress" hasNext="false" xPos="119.0" yPos="-207.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<grabar>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastrar "grabar" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-164.0" yPos="86.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event4>:property<triggerResponse>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo encima de "Nada"]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-237.0" yPos="92.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event4>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, cuando el ratón haga clic en el BotonGrabar, Alice hará el método "Mundo.grabar" qué es lo que queremos.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.2819767441860465" yPos="0.4337837837837838">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, vamos a hacer un evento para el boton play.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-47.0" yPos="137.0">
+      <id>
+	<![CDATA[behaviors:createNewEventButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "crear evento nuevo"]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?event5.what?event5.y?event5.x?event5?|nonExistantElements|?|propertyValues|?event5.y.valueClass:Number?event5.x.valueClass:Number?|elementPositions|?event5:0?event5.what:2?event5.y:1?event5.x:0?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.5348837209302325" yPos="0.5527027027027027">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Elige "Cuando el ratón haga clic en algo" del menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-201.0" yPos="96.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event5>]]>
+      </id>
+      <message>
+	<![CDATA[Aquí está el evento que acabas de crear.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?event5.onWhat:BotonReproducir?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-264.0" yPos="83.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event5>:property<onWhat>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "alguna cosa"]]>
+      </message>
+      <message>
+	<![CDATA[Elige "BotonReproducir" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-264.0" yPos="85.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event5>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, nuestro evento dice "Cuando el ratón haga clic en BotonReproducir, hacer Nada"]]>
+      </message>
+      <message>
+	<![CDATA[¡Vamos a hacer que reproduzca en su lugar!]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?event5.__Unnamed3__.userDefinedResponse:Mundo.reprod?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="218.0" yPos="-4.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<reprod>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "reprod" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-191.0" yPos="69.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event5>:property<triggerResponse>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo encima de "Nada"]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-283.0" yPos="87.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event5>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, el evento dice que cuando hagas clic en el botón reproducir, Alice hará el método "Mundo.reprod".]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.3003875968992248" yPos="0.42162162162162165">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Ahora podemos hacer clic en los pingüinos para hacer que canten, y clic en los botones grabar y reproducir para empezar a grabar y reproducir. Solo necesitamos añadir un evento más para stop.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-41.0" yPos="67.0">
+      <id>
+	<![CDATA[behaviors:createNewEventButton]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "crear evento nuevo" una última vez...]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?event6.what?event6.y?event6.x?event6?|nonExistantElements|?|propertyValues|?event6.y.valueClass:Number?event6.x.valueClass:Number?|elementPositions|?event6.x:0?event6.what:2?event6:0?event6.y:1?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.5164728682170543" yPos="0.518918918918919">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Elige "Cuando el ratón haga clic en algo" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="2">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-306.0" yPos="85.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event6>]]>
+      </id>
+      <message>
+	<![CDATA[Aquí está el evento que acabas de crear.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="true" xPos="0.29554263565891475" yPos="0.4486486486486487">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Primero, vamos a hacer que nuestro nuevo evento diga "Cuando el ratón haga clic en BotonDetener, hacer Nada"]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?event6.onWhat:BotonDetener?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-308.0" yPos="121.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event6>:property<onWhat>]]>
+      </id>
+      <message>
+	<![CDATA[Haz clic en "alguna cosa"]]>
+      </message>
+      <message>
+	<![CDATA[Elige "BotonDetener" desde el menú desplegable.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-201.0" yPos="94.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event6>]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, nuestro evento dice "Cuando el ratón haga clic en BotonDetener, hacer Nada"]]>
+      </message>
+      <message>
+	<![CDATA[¡Vamos a hacer que detenga en su lugar!]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?event6.__Unnamed3__.userDefinedResponse:Mundo.detener?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="false" xPos="150.0" yPos="-200.0">
+      <id>
+	<![CDATA[details<>:userDefinedResponse<detener>]]>
+      </id>
+      <message>
+	<![CDATA[1Arrastra "detener" desde aquí...]]>
+      </message>
+    </note>
+    <note type="hole" autoAdvance="false" advanceEvent="mouseClic" hasNext="true" xPos="-307.0" yPos="80.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event6>:property<triggerResponse>]]>
+      </id>
+      <message>
+	<![CDATA[2...y sueltalo encima de "Nada"]]>
+      </message>
+      <message>
+	<![CDATA[2Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-293.0" yPos="92.0">
+      <id>
+	<![CDATA[behaviors]]>
+      </id>
+      <message>
+	<![CDATA[Ahora, ya tenemos unos cuantos eventos. Puedes hacer clic en los pingüinos y cantarán, pero también puedes grabar sus canciones y reproducirlas de nuevo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-241.0" yPos="94.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event2>]]>
+      </id>
+      <message>
+	<![CDATA[Y los pingüinos seguirán cantando sus canciones cuando presiones una tecla.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="frame" hasNext="true" xPos="-83.0" yPos="80.0">
+      <id>
+	<![CDATA[behaviors:elementTile<event1>]]>
+      </id>
+      <message>
+	<![CDATA[Además, cuando el mundo arranque, los pingüinos seguirán cantando su escala.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="hole" autoAdvance="true" advanceEvent="mousePress" hasNext="false" xPos="-44.0" yPos="80.0">
+      <id>
+	<![CDATA[playButton]]>
+      </id>
+      <message>
+	<![CDATA[Prueba a jugar tu mundo]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="1">
+    <stateCapsule>
+      <![CDATA[existantElements|?|nonExistantElements|?|propertyValues|?|elementPositions|?|]]>
+    </stateCapsule>
+    <note type="null" hasNext="false" xPos="0.7344961240310077" yPos="0.33783783783783783">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Cuando los pingüinos terminen la escala, presiona grabar y cliquea algunos pingüinos.]]>
+      </message>
+      <message>
+	<![CDATA[-Presiona stop para detener la grabación]]>
+      </message>
+      <message>
+	<![CDATA[-Presiona play para escuchar lo que has grabado]]>
+      </message>
+    </note>
+    <note type="null" hasNext="true" xPos="0.7383720930232558" yPos="0.6202702702702703">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[Puedes hacerlo tantas veces como quieras. Cuando hayas terminado, haz clic en 'X' para cerrar el mundo.]]>
+      </message>
+      <message>
+	<![CDATA[Clic "sig." para continuar.]]>
+      </message>
+    </note>
+  </stencil>
+  <stencil title="Añadiendo Más Eventos de Clic con el Ratón" stepsToGoBack="2">
+    <note type="null" hasNext="false" xPos="0.3226744186046512" yPos="0.4391891891891892">
+      <id>
+	<![CDATA[null]]>
+      </id>
+      <message>
+	<![CDATA[En este capítulo hemos visto:]]>
+      </message>
+      <message>
+	<![CDATA[-qué es un evento]]>
+      </message>
+      <message>
+	<![CDATA[-cómo crear eventos de tecla presionada y de clic con ratón]]>
+      </message>
+      <message>
+	<![CDATA[Si no estás seguro de cómo hacer esto, por favor reinicia.]]>
+      </message>
+    </note>
+  </stencil>
+</stencilStack>
+
